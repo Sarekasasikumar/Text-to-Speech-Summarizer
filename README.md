@@ -92,8 +92,6 @@
 <h2>License</h2>
 <p>This project is licensed under the MIT License. See the <a href="./LICENSE">LICENSE</a> file for more details.</p>
 
-<h2>Contact</h2>
-<p>For any questions or inquiries, please contact <a href="mailto:yourname@example.com">yourname@example.com</a>.</p>
 
 </body>
 </html>

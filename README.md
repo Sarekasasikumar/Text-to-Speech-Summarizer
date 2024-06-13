@@ -29,31 +29,35 @@ To run the app locally, follow these steps:
    streamlit run app.py
 ***Usage***
 
-##Home Page
+
+## Usage
+
+### Home Page
 
 The home page provides an overview of the app and instructions on how to use it. Navigate to the home page using the sidebar.
 
-##Summarize Text
+### Summarize Text
 
-Enter Text: Input the text you want to summarize in the provided text area.
-Adjust Parameters: Use the sliders in the sidebar to adjust summarization parameters:
-Max Length: Set the maximum length of the summary (default is 150).
-Length Penalty: Adjust the length penalty to control the length of the summary (default is 2.0).
-Number of Beams: Set the number of beams for beam search (default is 4).
-Generate Summary: Click the "Summarize" button to generate the summary. The summary will be displayed below the button.
-Listen to Summary: Click the "Listen to Summary" button to convert the summary to speech and listen to it.
+- **Enter Text:** Input the text you want to summarize in the provided text area.
+- **Adjust Parameters:** Use the sliders in the sidebar to adjust summarization parameters:
+  - **Max Length:** Set the maximum length of the summary (default is 150).
+  - **Length Penalty:** Adjust the length penalty to control the length of the summary (default is 2.0).
+  - **Number of Beams:** Set the number of beams for beam search (default is 4).
+- **Generate Summary:** Click the "Summarize" button to generate the summary. The summary will be displayed below the button.
+- **Listen to Summary:** Click the "Listen to Summary" button to convert the summary to speech and listen to it.
 
-##Error Handling
+### Error Handling
 
-The app ensures that the input text contains at least 50 words.
-It prompts users to set the maximum length parameter to 4096 for optimal summarization.
-##Dependencies
--Streamlit
--Transformers (Hugging Face)
--gTTS (Google Text-to-Speech)
--torch (PyTorch)
-##License
-This project is licensed under the MIT License. See the LICENSE file for more details.
+- The app ensures that the input text contains at least 50 words.
+- It prompts users to set the maximum length parameter to 4096 for optimal summarization.
 
+## Dependencies
 
+- Streamlit
+- Transformers (Hugging Face)
+- gTTS (Google Text-to-Speech)
+- torch (PyTorch)
 
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more details.
